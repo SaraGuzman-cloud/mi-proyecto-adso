@@ -1,0 +1,21 @@
+info:
+  name: "03 Duplicado en mayusculas "
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3000/api/dev/users
+  body:
+    type: json
+    data: |-
+      {
+        "email": "PEPITAORTIZ@MISENA.COM"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

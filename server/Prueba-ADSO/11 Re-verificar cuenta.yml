@@ -1,0 +1,15 @@
+info:
+  name: 11 Re-verificar cuenta
+  type: http
+  seq: 12
+
+http:
+  method: PATCH
+  url: http://localhost:3000/api/dev/users/1723f895-f15d-4536-9bcf-4567816b6b24/verify
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
