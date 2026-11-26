@@ -1,0 +1,16 @@
+info:
+  name: 12 · Eliminar de nuevo
+  type: http
+  seq: 12
+
+http:
+  method: DELETE
+  url: "{{localURL}}/api/dev/content/6ad82b673a9ee923e1ad3d40"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true

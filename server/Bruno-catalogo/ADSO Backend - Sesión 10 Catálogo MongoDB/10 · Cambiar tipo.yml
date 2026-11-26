@@ -1,0 +1,19 @@
+info:
+  name: 10 · Cambiar tipo
+  type: http
+  seq: 1
+
+http:
+  method: PATCH
+  url: "{{localURL}}/api/dev/content/6ad82b673a9ee923e1ad3d46"
+  body:
+    type: json
+    data: '{ "type": "banner" }'
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true
